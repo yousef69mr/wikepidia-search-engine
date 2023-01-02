@@ -1,1 +1,1 @@
-prewview page : https://wikepidia-search-engine.pages.dev/
+preview page : https://wikepidia-search-engine.pages.dev/
