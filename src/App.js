@@ -32,7 +32,7 @@ function App() {
       <header className="App-header">
         <h1>Wiki Seeker</h1>
         <form action="#" className="search-box" onSubmit={handleSearch} >
-          <input type="search" placeholder="What are you looking for ?" value={search} onChange={e => setSearch(e.target.value)} />
+          <input type="search" placeholder="What are you looking for ?" value={search} onChange={e => setSearch(e.target.value.trim())} />
         </form>
         {(searchInfo.totalhits) ? <p>Search Results : {searchInfo.totalhits}</p> : ''}
       </header>
